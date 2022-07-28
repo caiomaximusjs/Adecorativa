@@ -1,0 +1,33 @@
+.form{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+form{
+  flex-direction: column;
+  display: flex;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  text-align: center;
+  font-weight: 800;
+  margin: 7px;
+
+}
+input{
+  padding: 8px;
+  margin: 8px;
+  border: solid 1px blue;
+  
+
+
+
+}
+.emailTel{
+  
+  margin-left: auto;
+  margin-right: auto;
+
+}
