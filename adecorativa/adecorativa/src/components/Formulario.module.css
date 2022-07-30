@@ -1,0 +1,118 @@
+.formulario_section {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  border: solid 1px #F24405;
+  height: 900px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formulario_container {
+  margin-bottom: 200px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  height: 800px;
+}
+.formulario_h1{
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #F24405;
+  font-weight: 800;
+}
+.formulario_container label {
+  color: #F24405;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.formulario_container input {
+  font-size: 16px;
+  outline: none;
+  padding: 12px;
+  width: 80%;
+  border: 1px solid #F24405;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formulario_container textarea {
+  outline: none;
+  resize: vertical;
+  font-size: 16px;
+  border: 1px solid #F24405;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.formulario_container button {
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #F24405;
+  margin-top: 40px;
+}
+.formulario_contato {
+  width: 46%;
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  height: 600px;
+}
+.endereco_formulario {
+  text-align: center;
+  font-size: 22px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.telefone_formulario {
+  text-align: center;
+  font-size: 22px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.endereco_titulo {
+  color: #F24405;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.telefone_titulo {
+  color: #F24405;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.endereco_texto {
+  font-weight: 500;
+}
+
+.telefone_texto {
+  font-weight: 500;
+}
+i {
+  margin-top: 40px;
+  color: #F24405;
+  font-size: 40px;
+}

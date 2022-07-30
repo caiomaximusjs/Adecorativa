@@ -1,0 +1,53 @@
+.prenav_container{
+  padding: 10px;
+  display: flex;
+  background-color: #fcfcfc;
+  justify-content: space-around;
+}
+.prenav_container h1{
+  margin-top: 14px;
+}
+.prenav_container_telefones{
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  color: green;
+  
+}
+.prenav_telefones{ 
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.prenav_atendimento{
+  display: flex;
+}
+.prenav_container img{
+  width: 75px;
+  height: 75px;
+  margin-right: 6px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+.prenav_atendimento_horas{
+  margin-top: 20px;
+  color: green;
+}
+.prenav_atendimento{
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.prenav_container p{
+  margin-top: -5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#logo{
+  width: 350px;
+  height: 120px;
+  margin-top: -12px;
+  
+  
+}

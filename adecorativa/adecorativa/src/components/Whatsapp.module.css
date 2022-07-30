@@ -1,0 +1,14 @@
+.zap{
+  width: 70px;
+  position: fixed;
+  margin-top: -80px;
+  margin-left: 15px;
+   opacity: 70%;
+   transition: .2s ease-in-out;
+}
+
+.zap:hover{
+  transform: scale(1.05);
+  opacity: 100%;
+}
+
