@@ -17,41 +17,7 @@ function Formulario() {
           </p>
         </div>
       </div>
-      <div className={styles.formulario_container}>
-        <div>
-          <h2 className={styles.formulario_h1}>Fale conosco</h2>
-        </div>
-        <form type='POST'>
-          <label>Nome:</label>
-          <input
-            type="text"
-            name="nome"
-            placeholder="JoÃ£o da Silva..."
-            required
-          ></input>
-          <label>E-mail:</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="joÃ£odaSilva@hotmail.com"
-            required
-          ></input>
-          <label>Telefone:</label>
-          <input
-            type="tel"
-            name="tel"
-            placeholder='"(xx) xxxxx-xxxx"'
-            required
-          ></input>
-          <label>Motivo do contato:</label>
-          <textarea
-            rows="5"
-            cols="60"
-            placeholder="descreva como podemos te ajudar de forma resumida"
-          ></textarea>
-          <button type="submit">Enviar</button>
-        </form>
-      </div>
+      
     </section>
   );
 }
