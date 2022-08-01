@@ -7,7 +7,7 @@ const Footer = () => {
     <>
     <footer>
     <div className={Styles.footer_tittle}>
-    <img className={Styles.footer_logo}  src={logo}></img>
+    <img className={Styles.footer_logo}  src={logo} alt='Logo da A Decorativa'></img>
     </div>
     <div className={Styles. footer_endereco}>
     <h3>Endereço</h3>
@@ -15,9 +15,9 @@ const Footer = () => {
     </div>
     <div className={Styles.footer_numero}>
       <h3>Telefone</h3>
-     <p className={Styles.footer_telText}> <BsTelephoneFill/> - 71 99116-2193</p>
+     <p className={Styles.footer_telText}> <BsTelephoneFill/> - (71) 3381-2007</p>
      <p className={Styles.footer_telText}>
-       <BsTelephoneFill/> -  71 99116-2193</p>
+       <BsTelephoneFill/> -  (71) 99609-8565</p>
     </div>
    
     </footer>

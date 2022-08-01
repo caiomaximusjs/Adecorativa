@@ -1,8 +1,8 @@
 iframe{
   width: 100%;
   height: 350px;
-  border: solid 10px #F27405;
-  margin-bottom: -10px;
+  border: solid 2px #164D59;
+  margin-bottom: 60px;
 }
 
 
@@ -12,5 +12,5 @@ iframe{
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
-  color: #F24405;
+  color: #164D59;
 }

@@ -1,12 +1,12 @@
 import styles from "./Formulario.module.css";
 function Formulario() {
   return (
-    <section className={styles.formulario_section}>
+    <section id='contato'className={styles.formulario_section}>
       <div className={styles.formulario_contato}>
         <div className={styles.telefone_formulario}>
           <i class="bi bi-telephone-fill"></i>
           <p className={styles.telefone_titulo}>Telefones:</p>
-          <p className={styles.telefone_texto}>71 99116-2193 / 71 3381-2007</p>
+          <p className={styles.telefone_texto}> (71) 99609-8565 / (71) 3381-2007</p>
         </div>
         <div className={styles.endereco_formulario}>
           <i class="bi bi-geo-alt-fill"></i>
@@ -17,9 +17,9 @@ function Formulario() {
           </p>
         </div>
       </div>
-      <div id="contato" className={styles.formulario_container}>
+      <div className={styles.formulario_container}>
         <div>
-          <h1 className={styles.formulario_h1}>Fale conosco</h1>
+          <h2 className={styles.formulario_h1}>Fale conosco</h2>
         </div>
         <form type='POST'>
           <label>Nome:</label>

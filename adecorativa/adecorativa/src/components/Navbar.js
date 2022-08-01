@@ -8,10 +8,10 @@ function Navbar() {
           <a href='#'>HOME</a>
         </li>
         <li>
-          <a href='#sobrenos'>SOBRE</a>
+          <a href='#sobre'>SOBRE</a>
         </li>
         <li>
-          <a href='#loc'>LOCALIZAÇÃO</a>
+          <a href='#localizacao'>LOCALIZAÇÃO</a>
         </li>
         <li>
           <a href='#contato'>CONTATO</a>

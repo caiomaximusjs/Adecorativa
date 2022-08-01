@@ -1,13 +1,31 @@
 .zap{
   width: 70px;
   position: fixed;
-  margin-top: -80px;
-  margin-left: 15px;
-   opacity: 70%;
+  margin-top: 0;
+  margin-left: 10px;
+   opacity: 90%;
    transition: .2s ease-in-out;
 }
 
 .zap:hover{
+  transform: scale(1.05);
+  opacity: 100%;
+}
+.telefone_ligar{
+  text-align: center;
+  width: 70px;
+  position: fixed;
+  margin-top: 100;
+  margin-left: 90px;
+   opacity: 90%;
+   transition: .2s ease-in-out;
+   border: 1px solid #164D59;
+   border-radius: 60px;
+   padding: 3px;
+   background-color: white;
+}
+
+.telefone_ligar:hover{
   transform: scale(1.05);
   opacity: 100%;
 }
