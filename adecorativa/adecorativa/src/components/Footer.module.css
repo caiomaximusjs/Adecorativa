@@ -1,5 +1,6 @@
 footer{
   background-color: #7777773d;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -49,4 +50,27 @@ text-align: start;
   text-align: center;
   background-color: #7777773d;
   color: #164D59;
+}
+
+@media only screen and (max-width: 1300px){
+  .footer_endereco{
+    display: none;
+    
+  }
+  .footer_numero{
+    display: none;
+    
+  }
+  .footer_logo{
+    width: 450px;
+  }
+ 
+}
+@media only screen and (max-width: 600px){
+  .footer_logo{
+    width: 300px;
+  }
+  footer{
+    display: none;
+  }
 }

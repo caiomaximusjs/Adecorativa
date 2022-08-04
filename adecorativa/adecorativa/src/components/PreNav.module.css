@@ -51,3 +51,74 @@
   
   
 }
+
+@media only screen and (max-width: 800px){
+  .prenav_telefones{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  #logo{
+    margin-top: 10px;
+    width: 250px;
+    height: 90px;
+  }
+  .prenav_container p{
+    font-size: 15px;
+  }
+  .prenav_container img{
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+  margin-top: 19px;
+  margin-bottom: -20px;
+  }
+}
+
+@media only screen and (max-width: 590px){
+
+  .prenav_telefones{
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  #logo{
+    margin-top: 0px;
+    width: 200px;
+    height: 75px;
+  }
+  .prenav_container p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .prenav_container img{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+  margin-top: 15px;
+  margin-bottom: -20px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .prenav_telefones{
+    font-size: 9px;
+    margin-top: 0px;
+  }
+  #logo{
+    margin-top: 10px;
+    width: 120px;
+    height: 45px;
+  }
+  .prenav_container p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+  }
+  .prenav_container img{
+    width: 35px;
+    height: 35px;
+    margin-right: 6px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  }
+}

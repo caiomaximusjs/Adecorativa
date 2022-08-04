@@ -4,6 +4,10 @@ iframe{
   border: solid 2px #164D59;
   margin-bottom: 60px;
 }
+.localizacao{
+  display: flex;
+  justify-content: center;
+}
 
 
 .loc_titulo{
@@ -13,4 +17,16 @@ iframe{
   font-size: 40px;
   margin-bottom: 50px;
   color: #164D59;
+}
+
+@media only screen and (max-width: 600px){
+  iframe{
+    width: 90%;
+    height: 250px;
+    border: solid 2px #164D59;
+    margin-bottom: 60px;
+  }
+  .loc_titulo{
+    font-size: 25px;
+  }
 }
